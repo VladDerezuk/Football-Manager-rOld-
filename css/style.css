@@ -49,6 +49,10 @@ h1{
 .contacts a{
     font-size: 22px;
     color: #39930d;
+    transition: all 1s ease;
+}
+.contacts p:hover a{
+    color: #343434;
 }
 .contacts i{
     font-size: 14px;
@@ -80,6 +84,12 @@ h1{
 .menu ul{
     padding: 20px;
     list-style: none;
+}
+.menu li:hover a{
+    color: #343434;
+}
+.menu a{
+    transition: all 1s ease-out;
 }
 .menu a{
     font-size: 14px;
