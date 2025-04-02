@@ -4,7 +4,7 @@
     padding: 0;
 }
 html {
-    font-size: 0.8px;
+    font-size: 1px;
 }
 body {
     font-family: 'Arial';
@@ -40,7 +40,7 @@ body {
 }
 .logo p {
     margin: 0;
-    padding-left: 15rem; 
+    padding-left: 3rem; 
 }
 .logo b {
     display: block;
@@ -89,11 +89,8 @@ body {
     line-height: 1.5em;
     color: #343434;
 }
-.hover {
-    transition: 1s ease;
-}
-.hover:hover {
-    color: #5a5a5a;
+aside .menu{
+    width: 100%;
 }
 .menu p {
     width: 300rem;
@@ -143,11 +140,6 @@ body {
     .logo {
         text-align: left;
     }
-}
-@media screen and (min-width: 1024px) {
-  html {
-    font-size: 1px;
-  }
 }
 @media screen and (min-width: 1440px) {
     html {
