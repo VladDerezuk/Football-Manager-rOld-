@@ -17,6 +17,9 @@ body {
     max-width: 960rem;
     padding: 0 15rem;
 }
+.imb{
+    padding: 10px;
+}
 .flex-between {
     display: flex;
     flex-wrap: wrap;
@@ -89,11 +92,11 @@ body {
     line-height: 1.5em;
     color: #343434;
 }
-aside .menu{
+aside{
     width: 100%;
 }
 .menu p {
-    width: 300rem;
+    width: 100%;
     padding: 11rem 20rem;
     background-color: #39930d;
     font-size: 18rem;
@@ -120,17 +123,17 @@ aside .menu{
     margin: 0 -15rem;
     padding: 13rem;
 }
+@media screen and (min-width: 372px) {
+    .imb{
+        padding: 10px;
+    }
+}
 @media screen and (min-width: 520px) {
     .flex-between {
         justify-content: space-between;
     }
     .main {
         flex-wrap: nowrap;
-    }
-}
-@media screen and (min-width: 320px) {
-    .menu {
-        width: 100%;
     }
 }
 @media screen and (min-width: 621px) {
@@ -149,5 +152,8 @@ aside .menu{
 @media screen and (min-width: 2560px) {
     html {
       font-size: 2px;
+    }
+    .imb{
+        min-width: 150px;
     }
 }
