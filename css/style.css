@@ -144,6 +144,11 @@ aside{
         text-align: left;
     }
 }
+@media screen and (min-width: 768px) {
+    .menu{
+        min-width: 300px;
+    }
+}
 @media screen and (min-width: 1440px) {
     html {
       font-size: 1.2px;
